@@ -1,0 +1,27 @@
+# AIML Week 4 Evaluation & Production Pipeline
+
+This repository contains implementations for model evaluation, regularisation, serialization, REST serving, capstone comparison, and responsible AI auditing.
+
+## Setup Instructions
+
+1. Create and activate a virtual environment:
+   python -m venv .venv
+   .venv\Scripts\activate
+
+2. Install dependencies:
+   pip install -r requirements.txt
+
+## Structure & Modules
+
+- Day 1: Model Evaluation Metrics (Stratified K-Fold, ROC curve, learning curve)
+- Day 2: Regularisation & Hyperparameter Search (Ridge L2 Grid Search, Lasso L1 Random Search)
+- Day 3: Model Persistence (Joblib and Pickle serialization)
+- Day 4: FastAPI Model Serving (Real-time REST endpoint inference)
+- Day 5: 1M Capstone (Logistic Regression vs Random Forest text classification)
+- Day 6: Responsible AI Auditing (AIF360 Disparate Impact mitigation and SHAP explainability)
+
+## Verification Evidence
+Generated plots and test screenshots are saved directly within the project workspace.
+
+
+Readme
